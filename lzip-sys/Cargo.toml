@@ -13,10 +13,7 @@ Bindings to lzlib for lzip compression and decompression exposed as
 Reader/Writer streams.
 """
 categories = ["external-ffi-bindings"]
-
-[lib]
-name = "lzip_sys"
-path = "src/lib.rs"
+edition = "2021"
 
 [dependencies]
 libc = "0.2.125"
